@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.08.DepositoCs", "2.08.Dep
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "2.09.CompararVb", "2.09.CompararVb\2.09.CompararVb.vbproj", "{2D269ED4-E5C0-4569-9C12-8ECB7D6A27C7}"
 EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "2.10.MenorVb", "2.10.MenorVb\2.10.MenorVb.vbproj", "{EC7C1392-89D4-4BAF-B419-A97FC002E2ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{2D269ED4-E5C0-4569-9C12-8ECB7D6A27C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D269ED4-E5C0-4569-9C12-8ECB7D6A27C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D269ED4-E5C0-4569-9C12-8ECB7D6A27C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7C1392-89D4-4BAF-B419-A97FC002E2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7C1392-89D4-4BAF-B419-A97FC002E2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7C1392-89D4-4BAF-B419-A97FC002E2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7C1392-89D4-4BAF-B419-A97FC002E2ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

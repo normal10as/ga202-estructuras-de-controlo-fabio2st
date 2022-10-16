@@ -9,19 +9,14 @@ namespace MenuCs
             AltaCliente = 1,
             Modificacioncliente,
             OpcionTres,
-            Salir = 0
         }
 
         static void Main(string[] args)
         {
             OpcionesMenu eleccion;
-            //do
-            //{
             MostrarMenu();
             eleccion = IngresarOpcion();
             ejecutarOpcion(eleccion);
-            //}
-            //while (eleccion != OpcionesMenu.Salir);
         }
 
         private static void ejecutarOpcion(OpcionesMenu eleccion)
@@ -44,12 +39,6 @@ namespace MenuCs
                 case OpcionesMenu.OpcionTres:
                     {
                         Console.WriteLine(mensajeEleccion + OpcionesMenu.OpcionTres.ToString());
-                        break;
-                    }
-
-                case OpcionesMenu.Salir:
-                    {
-                        Console.WriteLine("Saliendo del programa...");
                         break;
                     }
 

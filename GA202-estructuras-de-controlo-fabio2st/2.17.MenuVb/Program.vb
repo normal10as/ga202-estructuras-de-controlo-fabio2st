@@ -5,15 +5,12 @@ Module Program
         AltaCliente = 1
         ModificacionCliente
         ListarClientes
-        Salir = 0
     End Enum
     Sub Main(args As String())
         Dim eleccion As OpcionesMenu
-        '        Do
         MostrarMenuOpciones()
         eleccion = IngresarOpcion()
         EjecutarOpcion(eleccion)
-        '        Loop Until eleccion = OpcionesMenu.Salir
     End Sub
 
     Private Sub EjecutarOpcion(eleccion As OpcionesMenu)
@@ -25,8 +22,6 @@ Module Program
                 Console.WriteLine(mensajeEleccion & OpcionesMenu.ModificacionCliente.ToString())
             Case OpcionesMenu.ListarClientes
                 Console.WriteLine(mensajeEleccion & OpcionesMenu.ListarClientes.ToString())
-            Case OpcionesMenu.Salir
-                Console.WriteLine("Saliendo del programa...")
             Case Else
                 Console.WriteLine("La opción no es valida.")
         End Select
